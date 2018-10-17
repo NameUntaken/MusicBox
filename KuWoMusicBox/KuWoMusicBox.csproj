@@ -51,6 +51,7 @@
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="Lyric.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmMain.resx">
@@ -121,6 +122,30 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\陈一发儿-童话镇.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\大壮-我们不一样.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\金南玲-逆流成河.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\薛之谦-演员.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\音阙诗听-红昭愿.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\random.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mute.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
